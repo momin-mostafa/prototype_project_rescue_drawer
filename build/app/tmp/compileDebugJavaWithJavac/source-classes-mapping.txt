@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/prototype_project_rescue_drawer/BuildConfig.java
+ com.example.prototype_project_rescue_drawer.BuildConfig
