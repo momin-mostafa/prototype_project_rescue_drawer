@@ -4,7 +4,7 @@ A Expense App Prototype project that will be later used for portfolios.
 
 ## Prototype Developed BY:
 
-MD Al Momin Mostafa. /n
-S A Mashrur Rahman. /n
-K M Tanvir Anjum. /n
+MD Al Momin Mostafa. <br/>
+S A Mashrur Rahman. <br/>
+K M Tanvir Anjum. <br/>
 
