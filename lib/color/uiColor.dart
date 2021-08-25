@@ -25,26 +25,26 @@ class UIColor {
   static Color animatedContainerColor = Colors.white;
 
   //Drawer Screen Color ---------------------
-  static Color drawerScreenColor = HexColor.fromHex('#1E6F5F');
-  static Color drawerScreenText = HexColor.fromHex('#CCFFFF');
-  static Color circleAvatarColor = HexColor.fromHex('#46a391');
-  static Color drawerBottomButtonColor = Colors.teal.shade900;
-  static Color drawerBottomButtonBackground = HexColor.fromHex('#46a391');
+  static Color drawerScreenColor = HexColor.fromHex('#082032');
+  static Color drawerScreenText = HexColor.fromHex('#FF4C29');
+  static Color circleAvatarColor = HexColor.fromHex('#334756');
+  static Color drawerBottomButtonColor = HexColor.fromHex('2C394B');
+  static Color drawerBottomButtonBackground = HexColor.fromHex('#2C394B');
 
   // Home Screen Color ----------------------
-  static Color homeScreenColor = HexColor.fromHex('#CCFFFF');
+  static Color homeScreenColor = HexColor.fromHex('#2C394B');
 
   // Custom Card Colors ---------------------
   static Color customCardCost = HexColor.fromHex('#1ABC9C');
   static Color customCard = HexColor.fromHex('#74d3ae');
   static Color customCardCostText = HexColor.fromHex('#EBFFFF');
-  static Color customCardDate = HexColor.fromHex('#f6e7cb');
+  static Color customCardDate = HexColor.fromHex('#EBFFFF');
   static Color customCardShadowColor = HexColor.fromHex('#f9fbe7');
   static Color customCardTitleColor = HexColor.fromHex('#EBFFFF');
 
   //Shadow Container Colors -----------------
-  static Color shadowContainerColor = HexColor.fromHex('#004d40');
-  static Color shadowOfShadowCont = HexColor.fromHex('#004d40');
+  static Color shadowContainerColor = placeHolder;
+  static Color shadowOfShadowCont = placeHolder;
 
   //Icon Color ------------------------------
   static Color iconMenuColor = HexColor.fromHex('153243');
