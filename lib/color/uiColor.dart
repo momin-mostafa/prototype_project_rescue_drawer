@@ -17,6 +17,16 @@ extension HexColor on Color {
       '${blue.toRadixString(16).padLeft(2, '0')}';
 }
 
+Color colorChanger(Color trueColor, Color falseColor, bool drawerInfo) {
+  if (drawerInfo) {
+    final Color temp = trueColor;
+    return temp;
+  } else {
+    final Color temp = falseColor;
+    return temp;
+  }
+}
+
 class UIColor {
   //placeHolder Color Black
 
