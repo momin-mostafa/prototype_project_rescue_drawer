@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../utils/uiColor.dart';
+import '../color/uiColor.dart';
 
 class DrawerScreen extends StatefulWidget {
   const DrawerScreen({Key? key}) : super(key: key);

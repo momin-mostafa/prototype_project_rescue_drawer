@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import '../Widgets/customCard.dart';
 import '../Widgets/list_of_product.dart';
 import '../Widgets/newproduct.dart';
-import '../utils/uiColor.dart';
-import '../utils/globals.dart' as globals;
+import '../color/uiColor.dart';
+import '../globals.dart' as globals;
 import '../utils/listing.dart';
 
 class HomeScreen extends StatefulWidget {

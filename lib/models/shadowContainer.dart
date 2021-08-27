@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../utils/uiColor.dart';
+import '../color/uiColor.dart';
 
 class ShadowContainer extends StatefulWidget {
   const ShadowContainer({Key? key}) : super(key: key);
