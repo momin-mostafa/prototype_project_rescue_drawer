@@ -1,3 +1,5 @@
+import '../utils/globals.dart' as globals;
+
 import 'package:flutter/material.dart';
 
 class NewProduct extends StatelessWidget {
@@ -14,11 +16,12 @@ class NewProduct extends StatelessWidget {
     if (enteredTitle.isEmpty || enteredAmount <= 0) {
       return;
     }
-
     addTx(
       enteredTitle,
       enteredAmount,
     );
+    globals.sink.write(enteredTitle);
+    globals.sink2.write(enteredAmount);
   }
 
   @override
