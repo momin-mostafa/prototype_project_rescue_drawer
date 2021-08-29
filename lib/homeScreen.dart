@@ -62,6 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ],
       ),
       child: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -126,16 +127,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
             ],
-          ),
-          Card(
-            child: Container(
-              padding: EdgeInsets.all(10),
-              width: double.maxFinite,
-              child: Text(
-                "CHART",
-                textAlign: TextAlign.center,
-              ),
-            ),
           ),
           ProductList(_userProducts),
           IconButton(
