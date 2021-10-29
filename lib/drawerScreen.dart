@@ -22,19 +22,20 @@ class _DrawerScreenState extends State<DrawerScreen> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
-                  CircleAvatar(
-                    backgroundColor: UIColor.circleAvatarColor,
-                    child: Text('TM'),
-                  ),
-                  Padding(
-                    padding: EdgeInsets.only(left: 20),
-                  ),
+                  // CircleAvatar(
+                  //   backgroundColor: UIColor.circleAvatarColor,
+                  //   child: Text('TM'),
+                  // ),
+                  // Padding(
+                  //   padding: EdgeInsets.only(left: 20),
+                  // ),
                   Text(
-                    "Tamim Mostafa",
+                    "Expense App",
                     style: TextStyle(
                       fontSize: 17,
                       color: UIColor.drawerScreenText,
                       fontFamily: 'WindSong',
+                      fontWeight: FontWeight.bold,
                     ),
                   )
                 ],
